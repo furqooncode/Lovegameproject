@@ -1,0 +1,59 @@
+body {
+    background: pink;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding:20px;
+    margin:40px 20px;
+    background: violet;
+    border-radius: 16px;
+}
+.box h3{
+    text-align:center;
+    font-family:cursive;
+    font-size:24px;
+    font-weight:600;
+}
+.game-player{
+    display:grid;
+    padding:5px;
+}
+.game-player input{
+    padding:10px;
+    margin-bottom:5px;
+    border-radius: 16px;
+    border:none;
+    outline:none;
+}
+::placeholder{
+    color:black;
+}
+.submit{
+    background: pink;
+}
+.start h3{
+    text-align:center;
+    font-family:sans-sarif;
+}
+.start span{
+    color:whitesmoke;
+    gap:22px;
+    text-align:center;
+}
+.score{
+    background:red;
+    border-radius: 16px;
+    padding:8px;
+    height: 20px;
+    margin: 5px;
+    position: relative;
+}
+.score p{
+    text-align:center;
+    position: absolute;
+    left:30px;
+    top:5px;
+    letter-spacing:2px;
+    margin:8px;
+}
